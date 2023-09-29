@@ -31,7 +31,7 @@ const AddUser = (props) => {
       });
       return;
     }
-    props.onAddUser(enteredName, enteredUserAge);
+    props.onAddUser(enteredName, enteredUserAge ,enteredCname);
     nameInputRef.current.value = '';
     ageInputRef.current.value = '';
     cnameInputRef.current.value = '';
